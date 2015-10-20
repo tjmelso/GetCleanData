@@ -13,4 +13,4 @@ Next I got rid of all the column names that didn't include mean or std which nar
 
 Lastly, I combined and averaged all the data that had the same ID and Activity values to narrow down the number of rows to 180. This is a vast improvement to the over 10,000 that I started with. 
 
-I wrote my new dataset to a csv file because I like how excel is better at organizing the data than if I had just wrote it to a text file. 
+Wrote my dataset using write.table(). It is named tidydata.txt. To read data set use read.table command in R command prompt. 
