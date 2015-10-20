@@ -9,7 +9,7 @@ First I wanted to add in the ID numbers and activity variable into each data set
 
 Then I added the descriptive activity name to my 'Activity' columnin place of the reference number to which activity it was.
 
-Next I got rid of all the column names that didn't include mean or std which narrowed my dataset down to just 81 different column variables. 
+Next I got rid of all the column names that didn't include mean or std, this included getting rid of meanFreq measurements, which narrowed my dataset down to just 68 different column variables. 
 
 Lastly, I combined and averaged all the data that had the same ID and Activity values to narrow down the number of rows to 180. This is a vast improvement to the over 10,000 that I started with. 
 
