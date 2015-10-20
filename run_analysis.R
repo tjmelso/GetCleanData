@@ -1,7 +1,7 @@
 #### Getting and Cleaning Data Course Project
 library(dplyr)
 #Set working directory and read data sets into R
-setwd("C:/Users/tymel_000/Repos/GetCleanData/UCI HAR Dataset")
+setwd("../Repos/GetCleanData/UCI HAR Dataset")
 xtest <- read.table("test/X_test.txt")
 ytest <- read.table("test/y_test.txt", col.names="Activity")
 subtest <- read.table("test/subject_test.txt", col.names = "ID")
